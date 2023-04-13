@@ -28,16 +28,15 @@ class YouTubeUploader:
 	"""A class for uploading videos on YouTube via Selenium using metadata JSON file
 	to extract its title, description etc"""
 
-	def __init__(self, video_path: str, metadata_json_path: Optional[str] = None,
-	             thumbnail_path: Optional[str] = None,
-	             profile_path: Optional[str] = str(Path.cwd()) + "/profile") -> None:
+	def __init__(self, video_path: str, video_title: str) -> None:
 		self.video_path = video_path
-		self.thumbnail_path = thumbnail_path
-		self.metadata_dict = load_metadata(metadata_json_path)
-		self.browser = Firefox(profile_path=profile_path, pickle_cookies=True, full_screen=False)
+		self.thumbnail_path = None
+		self.metadata_dict = load_metadata(None)
+		self.browser = Firefox(profile_path= str(Path.cwd()) + "/profile", pickle_cookies=True, full_screen=False)
 		self.logger = logging.getLogger(__name__)
 		self.logger.setLevel(logging.DEBUG)
-		self.__validate_inputs()
+		# self.__validate_inputs()
+		self.metadata_dict[Constant.VIDEO_TITLE] = video_title
 
 		self.is_mac = False
 		if not any(os_name in platform.platform() for os_name in ["Windows", "Linux"]):
@@ -69,6 +68,272 @@ class YouTubeUploader:
 	def __login(self):
 		self.browser.get(Constant.YOUTUBE_URL)
 		time.sleep(Constant.USER_WAITING_TIME)
+
+		false=False;true=True
+		# Define the cookies you want to add
+		cookie_list = [
+		{
+			"domain": ".youtube.com",
+			"expirationDate": 1715742850,
+			"hostOnly": false,
+			"httpOnly": false,
+			"name": "__Secure-1PAPISID",
+			"path": "/",
+			"sameSite": "unspecified",
+			"secure": true,
+			"session": false,
+			"storeId": "0",
+			"value": "L0JEdWLQen4gjQUt/AQdzfLH6q8uQ_lpnP",
+			"sameSite": "Lax",
+			"id": 1
+		},
+		{
+			"domain": ".youtube.com",
+			"expirationDate": 1715742850,
+			"hostOnly": false,
+			"httpOnly": true,
+			"name": "__Secure-1PSID",
+			"path": "/",
+			"sameSite": "unspecified",
+			"secure": true,
+			"session": false,
+			"storeId": "0",
+			"value": "VAiwOYICjgpKiyv5DFNpRRqy58VNmHltd_EBtb4xR2Zv18v_lyxQATX1UpZMPVRlMTbT6A.",
+			"sameSite": "Lax",
+			"id": 2
+		},
+		{
+			"domain": ".youtube.com",
+			"expirationDate": 1712718996,
+			"hostOnly": false,
+			"httpOnly": true,
+			"name": "__Secure-1PSIDCC",
+			"path": "/",
+			"sameSite": "unspecified",
+			"secure": true,
+			"session": false,
+			"storeId": "0",
+			"value": "AFvIBn-7UBoTJdEgIfrubbcBe2HMaPlcG29K-CkRFOHwiKRm-xDGM4wUZpwzamDLJAbR2tPB7g",
+			"sameSite": "Lax",
+			"id": 3
+		},
+		{
+			"domain": ".youtube.com",
+			"expirationDate": 1715742850,
+			"hostOnly": false,
+			"httpOnly": false,
+			"name": "__Secure-3PAPISID",
+			"path": "/",
+			"sameSite": "no_restriction",
+			"secure": true,
+			"session": false,
+			"storeId": "0",
+			"value": "L0JEdWLQen4gjQUt/AQdzfLH6q8uQ_lpnP",
+			"sameSite": "Lax",
+			"id": 4
+		},
+		{
+			"domain": ".youtube.com",
+			"expirationDate": 1715742850,
+			"hostOnly": false,
+			"httpOnly": true,
+			"name": "__Secure-3PSID",
+			"path": "/",
+			"sameSite": "no_restriction",
+			"secure": true,
+			"session": false,
+			"storeId": "0",
+			"value": "VAiwOYICjgpKiyv5DFNpRRqy58VNmHltd_EBtb4xR2Zv18v_PUQ8WirxoeWCwRb4x-4gFg.",
+			"sameSite": "Lax",
+			"id": 5
+		},
+		{
+			"domain": ".youtube.com",
+			"expirationDate": 1712718996,
+			"hostOnly": false,
+			"httpOnly": true,
+			"name": "__Secure-3PSIDCC",
+			"path": "/",
+			"sameSite": "no_restriction",
+			"secure": true,
+			"session": false,
+			"storeId": "0",
+			"value": "AFvIBn-OUxgNrpJDwCsCwR3xWtd-vvHY7MebCsMj4PuNk4iZDPWwyMsTmHBTIfIHpsaD3Zap",
+			"sameSite": "Lax",
+			"id": 6
+		},
+		{
+			"domain": ".youtube.com",
+			"expirationDate": 1715742850,
+			"hostOnly": false,
+			"httpOnly": false,
+			"name": "APISID",
+			"path": "/",
+			"sameSite": "unspecified",
+			"secure": false,
+			"session": false,
+			"storeId": "0",
+			"value": "PIVycpTjEDzC_UBx/AjHR-aB6432nXnwev",
+			"sameSite": "Lax",
+			"id": 7
+		},
+		{
+			"domain": ".youtube.com",
+			"expirationDate": 1681183581,
+			"hostOnly": false,
+			"httpOnly": false,
+			"name": "CONSISTENCY",
+			"path": "/",
+			"sameSite": "unspecified",
+			"secure": true,
+			"session": false,
+			"storeId": "0",
+			"sameSite": "Lax",
+			"value": "ACv9N9T-YQ6Bfj6jh74BV0M_14c9Liu2cXn-LjJ0qcilKkS4vsQCRcYlqoVA4eXdRIkTQcx1JV8RBcE3WTPdzMPYWlHP7eZqbo_RI-e2H2ep8kaIMnZm0PIyfyytXKENPgG7UKcoXQ9r6CORuC4BVjaY",
+			"id": 8
+		},
+		{
+			"domain": ".youtube.com",
+			"expirationDate": 1715742850,
+			"hostOnly": false,
+			"httpOnly": true,
+			"name": "HSID",
+			"path": "/",
+			"sameSite": "unspecified",
+			"secure": false,
+			"session": false,
+			"storeId": "0",
+			"value": "Aq5_RWutfTxtFhuEL",
+			"sameSite": "Lax",
+			"id": 9
+		},
+		{
+			"domain": ".youtube.com",
+			"expirationDate": 1715742850,
+			"hostOnly": false,
+			"httpOnly": true,
+			"name": "LOGIN_INFO",
+			"path": "/",
+			"sameSite": "no_restriction",
+			"secure": true,
+			"session": false,
+			"storeId": "0",
+			"value": "AFmmF2swRQIhANhP5Cj-azN3xAzilYx7WB_sBEYSf0Z6OJ5_eEpnpsEzAiBTI8HusUYTqOcM5er17bjNthag4RQiRbr_POd1blwOCw:QUQ3MjNmeVVNVmYwX1FmemRyVl81WmRIODJrX2JqODFseV9oclFIMDl4QnlSeU1vYUcycUd5ci0zX2wxckV1ajZhMXhpcjktdnNMYVRhYVc4QzZPUHR5cWtGbWVSeWl2Z0FyQ19rbEZxNldZd1N0Q2l2MjNBZVdBaF9MX1BBMElVbUVNVWhHRTgyRnNXZDlEaDU2N01Zal9iMGNtUEFjWWp3",
+			"sameSite": "Lax",
+			"id": 10
+		},
+		{
+			"domain": ".youtube.com",
+			"expirationDate": 1715742981,
+			"hostOnly": false,
+			"httpOnly": false,
+			"name": "PREF",
+			"path": "/",
+			"sameSite": "unspecified",
+			"secure": true,
+			"session": false,
+			"storeId": "0",
+			"value": "f4=4000000&f6=40000000&tz=America.New_York&f7=100",
+			"sameSite": "Lax",
+			"id": 11
+		},
+		{
+			"domain": ".youtube.com",
+			"expirationDate": 1715742850,
+			"hostOnly": false,
+			"httpOnly": false,
+			"name": "SAPISID",
+			"path": "/",
+			"sameSite": "unspecified",
+			"secure": true,
+			"session": false,
+			"storeId": "0",
+			"value": "L0JEdWLQen4gjQUt/AQdzfLH6q8uQ_lpnP",
+			"sameSite": "Lax",
+			"id": 12
+		},
+		{
+			"domain": ".youtube.com",
+			"expirationDate": 1715742850,
+			"hostOnly": false,
+			"httpOnly": false,
+			"name": "SID",
+			"path": "/",
+			"sameSite": "unspecified",
+			"secure": false,
+			"session": false,
+			"storeId": "0",
+			"value": "VAiwOYICjgpKiyv5DFNpRRqy58VNmHltd_EBtb4xR2Zv18v_YUdx7kJNOeotEQqVWw9RNA.",
+			"sameSite": "Lax",
+			"id": 13
+		},
+		{
+			"domain": ".youtube.com",
+			"expirationDate": 1712718996,
+			"hostOnly": false,
+			"httpOnly": false,
+			"name": "SIDCC",
+			"path": "/",
+			"sameSite": "unspecified",
+			"secure": false,
+			"session": false,
+			"storeId": "0",
+			"value": "AFvIBn8h0g9ilVQ_wSvNG29OKWqbtin98jTLEekMJrkZYe81w7IbI9DZD6YEM-GzxKGhtRfuKA",
+			"sameSite": "Lax",
+			"id": 14
+		},
+		{
+			"domain": ".youtube.com",
+			"expirationDate": 1715742850,
+			"hostOnly": false,
+			"httpOnly": true,
+			"name": "SSID",
+			"path": "/",
+			"sameSite": "unspecified",
+			"secure": true,
+			"session": false,
+			"storeId": "0",
+			"value": "A0VOLMJy7OmNu-MJO",
+			"sameSite": "Lax",
+			"id": 15
+		},
+		{
+			"domain": ".youtube.com",
+			"expirationDate": 1696734850,
+			"hostOnly": false,
+			"httpOnly": true,
+			"name": "VISITOR_INFO1_LIVE",
+			"path": "/",
+			"sameSite": "no_restriction",
+			"secure": true,
+			"session": false,
+			"storeId": "0",
+			"value": "lKC6u2TdjO4",
+			"sameSite": "Lax",
+			"id": 16
+		},
+		{
+			"domain": ".youtube.com",
+			"hostOnly": false,
+			"httpOnly": true,
+			"name": "YSC",
+			"path": "/",
+			"sameSite": "no_restriction",
+			"secure": true,
+			"session": true,
+			"storeId": "0",
+			"value": "OgtAHEw7ik0",
+			"sameSite": "Lax",
+			"id": 17
+		}
+		]
+
+		# Add the cookies to the WebDriver
+		for cookie in cookie_list:
+			self.browser.driver.add_cookie(cookie)
+
+		# Verify that the cookies were added
+		print(self.browser.driver.get_cookies())
 
 		if self.browser.has_cookies_for_current_website():
 			self.browser.load_cookies()

@@ -1,0 +1,193 @@
+1681059134821	geckodriver	INFO	Listening on 127.0.0.1:62443
+1681059135339	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x1/px9k2xmx00q7cf4ln2jhccd40000gn/T/rust_mozprofileY9qa8F"
+1681059135958	Marionette	INFO	Marionette enabled
+1681059135988	Marionette	INFO	Listening on port 62452
+Read port: 62452
+WebDriver BiDi listening on ws://127.0.0.1:62444
+1681059136123	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x1/px9k2xmx00q7cf4ln2jhccd40000gn/T/rust_mozprofileY9qa8F/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62444/devtools/browser/ef8409a0-8ef2-47b4-9687-19a74ca45780
+1681059138299	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2023-04-09T16:52:18Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-09T16:52:18Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-09T16:52:18Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-09T16:52:18Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-09T16:52:18Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-09T16:52:18Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-09T16:52:19Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-09T16:52:19Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://www.google.com/js/th/oIoBUkraiwvrWvoboAXFYHQWzRSJGjIwfpgcitVwm9E.js line 2 > eval line 5889 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/v3/signin/identifier?dsh=S-2029635075%3A1681059213930499&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%253FthemeRefresh%253D1&ec=65620&hl=en&ifkv=AQMjQ7TBvzP5U-kWBgXy4lyZ3Pzdqi31wG94CLnhFTz8zYKvfnaKAWhNVoSuKNcSA11ukndtyWZ-UA&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin line 205 > injectedScript line 2 > eval line 5577 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+[2023-04-09T17:01:34Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-09T17:01:34Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-09T17:01:34Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-09T17:01:34Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1681059981515	Marionette	INFO	Stopped listening on port 62452
+1681060243356	geckodriver	INFO	Listening on 127.0.0.1:62932
+1681060243872	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x1/px9k2xmx00q7cf4ln2jhccd40000gn/T/rust_mozprofileUSM3th"
+1681060244298	Marionette	INFO	Marionette enabled
+1681060244328	Marionette	INFO	Listening on port 62940
+Read port: 62940
+WebDriver BiDi listening on ws://127.0.0.1:62933
+1681060244461	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x1/px9k2xmx00q7cf4ln2jhccd40000gn/T/rust_mozprofileUSM3th/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62933/devtools/browser/168cae8b-fac0-4998-a330-c9701abf6f41
+1681060246786	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2023-04-09T17:10:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-09T17:10:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-09T17:10:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-09T17:10:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-09T17:10:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-09T17:10:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-09T17:10:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-09T17:10:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-09T17:10:50Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-09T17:10:50Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-09T17:10:50Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-09T17:10:50Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1681060255979	Marionette	INFO	Stopped listening on port 62940
+1681184151608	geckodriver	INFO	Listening on 127.0.0.1:52260
+1681184152126	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x1/px9k2xmx00q7cf4ln2jhccd40000gn/T/rust_mozprofileVb1uyH"
+1681184152802	Marionette	INFO	Marionette enabled
+1681184152833	Marionette	INFO	Listening on port 52266
+Read port: 52266
+WebDriver BiDi listening on ws://127.0.0.1:52261
+1681184152970	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x1/px9k2xmx00q7cf4ln2jhccd40000gn/T/rust_mozprofileVb1uyH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52261/devtools/browser/a1916441-8c08-4184-940f-279fef8c3e91
+1681184154044	Marionette	INFO	Stopped listening on port 52266
+1681184213480	geckodriver	INFO	Listening on 127.0.0.1:52308
+1681184213993	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x1/px9k2xmx00q7cf4ln2jhccd40000gn/T/rust_mozprofilec6adt3"
+1681184214376	Marionette	INFO	Marionette enabled
+1681184214398	Marionette	INFO	Listening on port 52314
+Read port: 52314
+WebDriver BiDi listening on ws://127.0.0.1:52309
+1681184214532	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x1/px9k2xmx00q7cf4ln2jhccd40000gn/T/rust_mozprofilec6adt3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52309/devtools/browser/98bc1479-0ebf-4240-8d50-ebb2d42e84e7
+1681184215471	Marionette	INFO	Stopped listening on port 52314
+!!! error running onStopped callback: TypeError: callback is not a function
+1681184242174	geckodriver	INFO	Listening on 127.0.0.1:52343
+1681184242683	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x1/px9k2xmx00q7cf4ln2jhccd40000gn/T/rust_mozprofileDh9Y6Z"
+1681184243047	Marionette	INFO	Marionette enabled
+1681184243073	Marionette	INFO	Listening on port 52349
+Read port: 52349
+WebDriver BiDi listening on ws://127.0.0.1:52344
+1681184243205	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x1/px9k2xmx00q7cf4ln2jhccd40000gn/T/rust_mozprofileDh9Y6Z/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52344/devtools/browser/d349e463-faae-42b5-86b8-58d2fa89850c
+1681184244136	Marionette	INFO	Stopped listening on port 52349
+1681184555779	geckodriver	INFO	Listening on 127.0.0.1:52460
+1681184555790	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x1/px9k2xmx00q7cf4ln2jhccd40000gn/T/rust_mozprofileEUZe7m"
+1681184556237	Marionette	INFO	Marionette enabled
+1681184556265	Marionette	INFO	Listening on port 52464
+Read port: 52464
+WebDriver BiDi listening on ws://127.0.0.1:52461
+1681184556395	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x1/px9k2xmx00q7cf4ln2jhccd40000gn/T/rust_mozprofileEUZe7m/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52461/devtools/browser/e38e9200-d821-4e3e-b655-801b5f382886
+1681184558414	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2023-04-11T03:42:39Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:42:39Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:42:39Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:42:39Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:42:39Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:42:39Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:42:39Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:42:39Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+1681184561480	Marionette	INFO	Stopped listening on port 52464
+1681184580208	geckodriver	INFO	Listening on 127.0.0.1:52536
+1681184580718	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x1/px9k2xmx00q7cf4ln2jhccd40000gn/T/rust_mozprofileNlxrZv"
+1681184581133	Marionette	INFO	Marionette enabled
+1681184581159	Marionette	INFO	Listening on port 52542
+Read port: 52542
+WebDriver BiDi listening on ws://127.0.0.1:52537
+1681184581306	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x1/px9k2xmx00q7cf4ln2jhccd40000gn/T/rust_mozprofileNlxrZv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52537/devtools/browser/00ccdedc-7253-47f2-b331-7124006ecfbf
+1681184583644	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2023-04-11T03:43:04Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:43:04Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:43:04Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:43:04Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:43:04Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:43:04Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:43:04Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:43:04Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+1681184585349	Marionette	INFO	Stopped listening on port 52542
+1681184758547	geckodriver	INFO	Listening on 127.0.0.1:52673
+1681184759064	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x1/px9k2xmx00q7cf4ln2jhccd40000gn/T/rust_mozprofilekGRuDE"
+1681184759485	Marionette	INFO	Marionette enabled
+1681184759509	Marionette	INFO	Listening on port 52679
+Read port: 52679
+WebDriver BiDi listening on ws://127.0.0.1:52674
+1681184759650	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x1/px9k2xmx00q7cf4ln2jhccd40000gn/T/rust_mozprofilekGRuDE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52674/devtools/browser/7a7790aa-a0ce-4255-a5d1-0c6b4d5500bd
+1681184761847	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2023-04-11T03:46:01Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:46:01Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:46:01Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:46:01Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:46:02Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:46:02Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:46:02Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:46:02Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:46:05Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:46:05Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:46:05Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:46:05Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://www.google.com/js/th/N5mFr834vQscYBkJBlWlm-OcTwLjZ7qafrtiV9H8eXY.js line 2 > eval line 370 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/N5mFr834vQscYBkJBlWlm-OcTwLjZ7qafrtiV9H8eXY.js line 2 > eval line 3711 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/N5mFr834vQscYBkJBlWlm-OcTwLjZ7qafrtiV9H8eXY.js line 2 > eval line 370 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[2023-04-11T03:46:22Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:46:22Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:46:22Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T03:46:22Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+1681184783076	Marionette	INFO	Stopped listening on port 52679
+1681238603135	geckodriver	INFO	Listening on 127.0.0.1:58303
+1681238603650	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/x1/px9k2xmx00q7cf4ln2jhccd40000gn/T/rust_mozprofileaYaW23"
+1681238604293	Marionette	INFO	Marionette enabled
+1681238604324	Marionette	INFO	Listening on port 58309
+Read port: 58309
+WebDriver BiDi listening on ws://127.0.0.1:58304
+1681238604529	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x1/px9k2xmx00q7cf4ln2jhccd40000gn/T/rust_mozprofileaYaW23/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58304/devtools/browser/b7cf39dd-dd56-4d51-b6d4-f6dc7958ff09
+1681238606868	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2023-04-11T18:43:27Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T18:43:27Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T18:43:27Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T18:43:29Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T18:43:29Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T18:43:29Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T18:43:29Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T18:43:29Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T18:43:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T18:43:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T18:43:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T18:43:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://www.google.com/js/th/N5mFr834vQscYBkJBlWlm-OcTwLjZ7qafrtiV9H8eXY.js line 2 > eval line 1556 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/N5mFr834vQscYBkJBlWlm-OcTwLjZ7qafrtiV9H8eXY.js line 2 > eval line 7254 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/N5mFr834vQscYBkJBlWlm-OcTwLjZ7qafrtiV9H8eXY.js line 2 > eval line 1556 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/N5mFr834vQscYBkJBlWlm-OcTwLjZ7qafrtiV9H8eXY.js line 2 > eval line 3080 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[2023-04-11T18:45:05Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T18:45:05Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T18:45:05Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-04-11T18:45:05Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+1681238705967	Marionette	INFO	Stopped listening on port 58309
